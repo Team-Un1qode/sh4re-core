@@ -1,0 +1,27 @@
+{
+  "name": "@sh4re/ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/react": "^9.0.16",
+    "@storybook/react-vite": "^8.6.14",
+    "@storybook/theming": "^8.6.14",
+    "@types/react": "^19.1.8",
+    "typescript": "~5.8.3"
+  }
+}
