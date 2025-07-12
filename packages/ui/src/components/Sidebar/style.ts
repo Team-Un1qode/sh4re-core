@@ -7,7 +7,7 @@ export const SidebarLayout = styled.div`
   position: fixed;
   width: 18rem;
   height: 100vh;
-  background-color: #232323;
+  background-color: ${({ theme }) => theme.color.background};
   padding: 24px 20px;
   box-sizing: border-box;
 `;
