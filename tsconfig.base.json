@@ -9,8 +9,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@sh4re/ui": ["../../packages/ui/src"]
+      "@sh4re/ui": ["../../packages/ui/src"],
+      "@sh4re/assets": ["../../packages/assets/src"]
     }
   }
 }
-

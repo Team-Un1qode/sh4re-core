@@ -1,11 +1,12 @@
-import { Button } from '@sh4re/ui';
+import GlobalStyles from './styles/GlobalStyles';
+import Router from './router';
 
 function App() {
   return (
-      <div>
-        <h1>Student</h1>
-        <Button>Shared UI</Button>
-      </div>
+    <>
+      <GlobalStyles />
+      <Router />
+    </>
   );
 }
 
